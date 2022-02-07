@@ -50,6 +50,7 @@ class App extends Component{
             </textarea>
           </div>
           <div className='col-sm-6'>
+            <h2>Résultat du Markdown :</h2>
             <div dangerouslySetInnerHTML={this.renderText(this.state.text)}>
               
             </div>
